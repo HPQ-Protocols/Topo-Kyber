@@ -1,0 +1,207 @@
+{
+  "entities": {
+    "Alice": {
+      "entropy": {
+        "compression": {
+          "capped_diagnostic_bits_per_session": 14.593406593406593,
+          "capped_diagnostic_bits_rounded": 14.59,
+          "codec": "zlib level 9 (DEFLATE/LZ77 diagnostic; not LZ78)",
+          "compressed_length_bytes": 166,
+          "compression_ratio": 0.0456043956043956,
+          "original_length_bytes": 3640,
+          "scaled_bits_per_session_unrounded": 14.593406593406593,
+          "warning": "Compression ratio is a finite-sample diagnostic, not a formal min-entropy lower bound."
+        },
+        "conservative_diagnostic_bits_rounded": 3.92,
+        "conservative_diagnostic_bits_unrounded": 3.9191777751286674,
+        "interpretation": "Empirical diagnostic only; not a security verdict.",
+        "mfv": {
+          "bits_per_session_rounded": 3.92,
+          "bits_per_session_unrounded": 3.9191777751286674,
+          "bits_per_symbol_unrounded": 0.09797944437821668,
+          "conditional_clopper_pearson_95_p_interval": [
+            0.9258023671126951,
+            0.9421730144591649
+          ],
+          "conditional_entropy_95_interval_bits": [
+            3.43744334750368,
+            4.4489537414848455
+          ],
+          "most_frequent_symbol": 0,
+          "n_max": 3401,
+          "p_max": 0.9343406593406594,
+          "stream_length_bytes": 3640
+        }
+      },
+      "file": "alice_rssi.csv",
+      "quantization": {
+        "clipped_high_symbols": 0,
+        "clipped_low_symbols": 0
+      },
+      "rssi": {
+        "count": 13032,
+        "count_at_maximum": 1,
+        "count_at_minimum": 10,
+        "count_at_minus_20_dbm": 0,
+        "count_at_minus_90_dbm": 10,
+        "malformed_removed": 0,
+        "maximum_dbm": -41.0,
+        "mean_dbm": -84.22828422344998,
+        "median_dbm": -85.0,
+        "minimum_dbm": -90.0,
+        "p01_dbm": -87.0,
+        "p25_dbm": -85.0,
+        "p75_dbm": -84.0,
+        "p99_dbm": -63.0,
+        "range_db": 49.0,
+        "standard_deviation_db": 2.9156648573743333
+      },
+      "samples_used": 11648,
+      "unused_tail_samples": 1384
+    },
+    "Bob": {
+      "entropy": {
+        "compression": {
+          "capped_diagnostic_bits_per_session": 15.208791208791208,
+          "capped_diagnostic_bits_rounded": 15.21,
+          "codec": "zlib level 9 (DEFLATE/LZ77 diagnostic; not LZ78)",
+          "compressed_length_bytes": 173,
+          "compression_ratio": 0.047527472527472525,
+          "original_length_bytes": 3640,
+          "scaled_bits_per_session_unrounded": 15.208791208791208,
+          "warning": "Compression ratio is a finite-sample diagnostic, not a formal min-entropy lower bound."
+        },
+        "conservative_diagnostic_bits_rounded": 5.92,
+        "conservative_diagnostic_bits_unrounded": 5.9218031950546655,
+        "interpretation": "Empirical diagnostic only; not a security verdict.",
+        "mfv": {
+          "bits_per_session_rounded": 5.92,
+          "bits_per_session_unrounded": 5.9218031950546655,
+          "bits_per_symbol_unrounded": 0.14804507987636664,
+          "conditional_clopper_pearson_95_p_interval": [
+            0.8923716223246736,
+            0.9119216392711961
+          ],
+          "conditional_entropy_95_interval_bits": [
+            5.320729394099255,
+            6.571338347793512
+          ],
+          "most_frequent_symbol": 0,
+          "n_max": 3285,
+          "p_max": 0.9024725274725275,
+          "stream_length_bytes": 3640
+        }
+      },
+      "file": "bob_rssi.csv",
+      "quantization": {
+        "clipped_high_symbols": 0,
+        "clipped_low_symbols": 0
+      },
+      "rssi": {
+        "count": 11744,
+        "count_at_maximum": 6,
+        "count_at_minimum": 1,
+        "count_at_minus_20_dbm": 6,
+        "count_at_minus_90_dbm": 1,
+        "malformed_removed": 0,
+        "maximum_dbm": -20.0,
+        "mean_dbm": -82.0183923705722,
+        "median_dbm": -84.0,
+        "minimum_dbm": -90.0,
+        "p01_dbm": -87.0,
+        "p25_dbm": -85.0,
+        "p75_dbm": -83.0,
+        "p99_dbm": -62.0,
+        "range_db": 70.0,
+        "standard_deviation_db": 6.926703688214718
+      },
+      "samples_used": 11648,
+      "unused_tail_samples": 96
+    },
+    "Eve": {
+      "entropy": {
+        "compression": {
+          "capped_diagnostic_bits_per_session": 18.021978021978022,
+          "capped_diagnostic_bits_rounded": 18.02,
+          "codec": "zlib level 9 (DEFLATE/LZ77 diagnostic; not LZ78)",
+          "compressed_length_bytes": 205,
+          "compression_ratio": 0.05631868131868132,
+          "original_length_bytes": 3640,
+          "scaled_bits_per_session_unrounded": 18.021978021978022,
+          "warning": "Compression ratio is a finite-sample diagnostic, not a formal min-entropy lower bound."
+        },
+        "conservative_diagnostic_bits_rounded": 10.57,
+        "conservative_diagnostic_bits_unrounded": 10.56578393206918,
+        "interpretation": "Empirical diagnostic only; not a security verdict.",
+        "mfv": {
+          "bits_per_session_rounded": 10.57,
+          "bits_per_session_unrounded": 10.56578393206918,
+          "bits_per_symbol_unrounded": 0.26414459830172954,
+          "conditional_clopper_pearson_95_p_interval": [
+            0.820163542956637,
+            0.8446843073746068
+          ],
+          "conditional_entropy_95_interval_bits": [
+            9.74063384546188,
+            11.44065915811282
+          ],
+          "most_frequent_symbol": 0,
+          "n_max": 3031,
+          "p_max": 0.8326923076923077,
+          "stream_length_bytes": 3640
+        }
+      },
+      "file": "eva_rssi.csv",
+      "quantization": {
+        "clipped_high_symbols": 0,
+        "clipped_low_symbols": 0
+      },
+      "rssi": {
+        "count": 19379,
+        "count_at_maximum": 1,
+        "count_at_minimum": 1,
+        "count_at_minus_20_dbm": 0,
+        "count_at_minus_90_dbm": 0,
+        "malformed_removed": 0,
+        "maximum_dbm": -53.0,
+        "mean_dbm": -60.97863666855875,
+        "median_dbm": -60.0,
+        "minimum_dbm": -89.0,
+        "p01_dbm": -66.0,
+        "p25_dbm": -62.0,
+        "p75_dbm": -60.0,
+        "p99_dbm": -59.0,
+        "range_db": 36.0,
+        "standard_deviation_db": 1.7533294865508522
+      },
+      "samples_used": 11648,
+      "unused_tail_samples": 7731
+    }
+  },
+  "paired_feature_diagnostics": {
+    "first_feature_pearson_alice_bob": 0.07635885511403114,
+    "first_feature_pearson_alice_eve": 0.23393019865560913,
+    "median_linf_alice_bob": 0.42455513775348663,
+    "median_linf_alice_eve": 0.46000000089406967
+  },
+  "parameters": {
+    "affine_offset": 0.0,
+    "affine_scale": 1.0,
+    "embedding_dimension": 3,
+    "features_per_window": 40,
+    "h0_features": 20,
+    "h1_features": 20,
+    "q_step": 0.35,
+    "quantization_formula": "clip(floor((affine_scale * feature + affine_offset) / q_step), 0, 255)",
+    "segmentation": "fixed non-overlapping windows from flattened CSV streams",
+    "sessions": 91,
+    "symbols_per_window": 40,
+    "time_delay": 1,
+    "window_size": 128
+  },
+  "scope": {
+    "formal_nist_sp_800_90b_validation": false,
+    "standalone_cryptographic_entropy_claim": false,
+    "status": "localized empirical diagnostic"
+  }
+}
